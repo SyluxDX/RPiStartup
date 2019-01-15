@@ -1,0 +1,34 @@
+List installed packages:
+  dpkg --get-selections
+  dpkg --get-selections|grep [pattern]
+
+List repository packages:
+  apt-cache search [keyword]
+
+Mount USB:
+  sudo mount [device] [folder]
+  sudo mount /dev/sda1 /media/usb
+
+Unmount USB:
+  sudo umount [device|folder]
+  sudo umount /media/usb
+
+Check disk usage:
+  df -H
+
+Play music/video:
+  omxplayer [file]
+  omxplayer -o [auto/hdmi/local] [file]
+
+View youtube videos on omxplayer
+  youtube -g url
+	output:vurl
+  omxplayer "vurl"
+
+Select Wifi to connect:
+  wpa_cli
+    list_networks
+    select_network x
+
+Multiple terminal "tabs", max 12:
+  Alt+F1-F12

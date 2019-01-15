@@ -1,0 +1,20 @@
+Internet:
+  chromium-browser
+
+Image Viewer:
+  gpicview
+
+Archiver:
+  xarchiver
+
+Editor:
+  leafpad
+
+Desktop:
+  raspberrypi-ui-mods
+  xinit
+
+Other:
+  git
+  ?screen?
+  ?wget?
